@@ -1,0 +1,81 @@
+body{
+  margin: 0;
+  margin-top: 130px;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #d8f0de
+}
+
+h1,h2,h3 {
+text-shadow: 0 0 1.5px #00e640;
+}
+
+button:hover{
+background: pink;
+}
+
+.message .success{
+  padding: 10px;
+  border: 1px solid #00e640;
+  color: #00e640;
+}
+.message .error{
+  padding: 10px;
+  border: 1px solid #CF000F;
+}
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+form .description{
+  font-size: 18px;
+}
+.form-item{
+  margin-bottom: 15px;
+}
+.form-item label{
+  font-weight: 700;
+  color: rgba(0,0,0,0.86);
+  margin-bottom: 8px;
+  display: block;
+}
+.form-item input[type="text"]{
+  padding: 5px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.form-action button{
+   border: 1px solid rgba(0, 0, 0, 0.5);
+   padding: 8px 15px;
+   background: #FFF;
+}
+.tabs{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin: 20px 0;
+}
+.tabs li{
+  margin-top: 20px;
+  display: inline-block;
+  line-height: 20px;
+  font-size: 15px;
+  padding: 5px 15px;
+  font-weight: 700;
+  width: 130px;
+  cursor: pointer;
+  text-align: center;
+}
+.tabs li.active{
+  background-color: #00e640;
+}
+
+.tabs li:hover {
+font-weight:600;
+text-decoration: underline;
+text-decoration-color: #00e640;
+}
+
+#recognize-content, #train-content{
+  display: none;
+}
